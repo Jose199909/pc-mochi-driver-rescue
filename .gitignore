@@ -1,0 +1,11 @@
+# Driver packs and personal backups are downloaded locally.
+SDIO/drivers/
+Drivers_por_modelo/*
+!Drivers_por_modelo/.gitkeep
+Almacenamiento_para_instalar_Windows/*
+!Almacenamiento_para_instalar_Windows/.gitkeep
+Respaldo_de_drivers/*
+!Respaldo_de_drivers/.gitkeep
+*.log
+Thumbs.db
+Desktop.ini

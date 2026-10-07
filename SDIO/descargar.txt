@@ -1,0 +1,8 @@
+logging on
+enableinstall off
+init
+activetorrent 1
+checkupdates
+get indexes
+get driverpacks all
+end

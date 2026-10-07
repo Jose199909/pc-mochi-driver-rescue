@@ -1,0 +1,29 @@
+KIT DE CONTROLADORES PARA WINDOWS
+
+Estado: herramienta descargada y extraída. Los paquetes de controladores todavía NO están descargados. Esta carpeta todavía no sirve como colección completa sin internet.
+
+PREPARAR EL KIT ANTES DE LLEVARLO A OTRO PC
+1. Con conexión a internet, abre ABRIR_DRIVERS.cmd.
+2. En la bienvenida de Snappy Driver Installer Origin selecciona descargar todos los paquetes de controladores. Si está en inglés: Download all driver packs.
+3. Espera a que termine completamente. Reserva espacio suficiente: la colección puede ocupar decenas de GB.
+4. Copia TODA esta carpeta a un disco externo o USB. Usa NTFS o exFAT para admitir archivos grandes.
+5. Comprueba que SDIO\drivers contiene paquetes .7z. La aplicación sola y el archivo .torrent NO contienen los controladores.
+
+DESPUÉS DE INSTALAR WINDOWS
+1. Conecta el USB y abre ABRIR_DRIVERS.cmd como administrador.
+2. Selecciona los controladores faltantes que coincidan con el equipo, la versión de Windows y su arquitectura.
+3. Usa la opción de crear un punto de restauración si está disponible y reinicia al terminar.
+4. Si quedan dispositivos sin controlador, busca el modelo exacto en la web de su fabricante y guarda los archivos en Drivers_por_modelo.
+
+SI EL INSTALADOR DE WINDOWS NO VE EL DISCO
+SDIO se usa dentro de Windows. Para la pantalla de instalación necesitas el controlador de almacenamiento exacto del fabricante (por ejemplo Intel RST/VMD o RAID), extraído con sus archivos INF, SYS y CAT. Guárdalo en Almacenamiento_para_instalar_Windows y usa Cargar controlador en el instalador.
+
+COMPATIBILIDAD
+No hay un conjunto universal que garantice todos los equipos y cualquier Windows. Equipos ARM, hardware nuevo y versiones antiguas pueden necesitar controladores específicos o no tener soporte.
+
+FUENTE OFICIAL
+https://www.glenn.delahoy.com/snappy-driver-installer-origin/
+Aplicación descargada: SDIO 2.0.4.887.
+El archivo SDIO_Update.torrent permite descargar la colección mediante un cliente de torrent si la descarga desde SDIO falla.
+
+No se instalaron ni cambiaron controladores de este PC.
